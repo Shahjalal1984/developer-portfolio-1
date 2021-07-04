@@ -50,3 +50,27 @@ body{
     margin-right:30px;
     padding: 10px;
 }
+
+/* start styling section-3 */
+.section-3{
+
+}
+.section-3>h1 {
+    font-weight: 900;
+}
+#section-3-left{
+    margin-left: 95px;
+    margin-right: 20px;
+    padding: 5px;
+    border-left: 5px solid orange;
+    border-image: linear-gradient(orange, #FF6549) 30;
+    box-shadow: 5px 7px 40px 10px gray;
+}
+#section-3-right{
+    margin-left: 20px;
+    margin-right: 95px;
+    padding: 5px;
+    border-left: 5px solid orange;
+    border-image: linear-gradient(blue, #FF6549) 30;
+    box-shadow: 5px 7px 40px 10px gray;
+}
