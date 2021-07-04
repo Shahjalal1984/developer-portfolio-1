@@ -9,7 +9,7 @@ body{
 }
 .flexible{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -40,11 +40,15 @@ body{
     color: #fff;
 }
 /* Style for second section ======*/
+
 .section2-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 250px;
+}
+.section-3>h1{
+    font-size: 25px;
 }
 .division-margin-right{
     margin-right:30px;
@@ -53,24 +57,54 @@ body{
 
 /* start styling section-3 */
 .section-3{
-
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .section-3>h1 {
     font-weight: 900;
+    font-size: 35px;
 }
 #section-3-left{
     margin-left: 95px;
-    margin-right: 20px;
-    padding: 5px;
+    margin-right: 25px;
     border-left: 5px solid orange;
     border-image: linear-gradient(orange, #FF6549) 30;
-    box-shadow: 5px 7px 40px 10px gray;
+    box-shadow: 5px 7px 30px 10px gray;
 }
 #section-3-right{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 95px;
-    padding: 5px;
     border-left: 5px solid orange;
     border-image: linear-gradient(blue, #FF6549) 30;
-    box-shadow: 5px 7px 40px 10px gray;
+    box-shadow: 5px 7px 30px 10px gray;
+}
+#section-3-left h1{
+    font-size: 40px;
+    padding: 10px;
+
+}
+#section-3-right h1{
+    font-size: 40px;
+    padding: 10px;
+
+}
+#section-3-left h2{
+    color: orange;
+    padding: 10px;
+
+}
+#section-3-right h2{
+    color: orange;
+    padding: 10px;
+
+}
+#section-3-left p, #section-3-right{
+    padding: 10px;
+
+}
+
+footer p{
+    text-align: center;
+    font-weight: 700;
 }
