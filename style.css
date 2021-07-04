@@ -9,6 +9,7 @@ body{
 }
 .flexible{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -37,4 +38,15 @@ body{
     margin-top: 20px;
     text-transform: uppercase;
     color: #fff;
+}
+/* Style for second section ======*/
+.section2-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 250px;
+}
+.division-margin-right{
+    margin-right:30px;
+    padding: 10px;
 }
