@@ -47,9 +47,7 @@ body{
     background-position: right;
     background-position-y: 250px;
 }
-.section-3>h1{
-    font-size: 25px;
-}
+
 .division-margin-right{
     margin-right:30px;
     padding: 10px;
@@ -99,9 +97,12 @@ body{
     padding: 10px;
 
 }
-#section-3-left p, #section-3-right{
+#section-3-left p, #section-3-right p{
     padding: 10px;
 
+}
+footer{
+    margin-bottom: 100px;
 }
 
 footer p{
